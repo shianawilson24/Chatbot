@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+ <category>
+     <pattern>*</pattern>
+     <template>Hey, I dont quite understand that. Text help to get the chat going. </template>
+ </category>
+  <category>
+     <pattern>HI</pattern>
+     <template>Hey! Do you need help if so type "help" </template>
+ </category>
+  <category>
+     <pattern>HELLO</pattern>
+     <template>Hey! Do you need help if so type "help" </template>
+ </category>
+
+ <category>
+        <pattern>I NEED HELP</pattern>
+         <template>Okay great! Lets start by telling me your name? You can do that by texting, "My name is ____"</template>
+ </category>
+ <category>
+        <pattern>HELP</pattern>
+        <template>Okay great! Lets start by telling me your name? You can do that by texting, "My name is ____"</template>
+ </category>
+ <category>
+        <pattern>MY NAME IS *</pattern>
+        <template>Hi <set name= "username"><star /></set>! I'm assuming your a computer science student looking for some career help is that correct? type yes</template>
+ </category>
+ <category>
+        <pattern>YES</pattern>
+        <template>Okay <get name= "username" />! Lets get started now. What best suites you? data or design? Text design or data</template>
+        
+ </category>
+  <category>
+        <pattern>NO</pattern>
+        <template>Okay <get name= "username" /> you can close this session</template>
+ </category>
+ <category>
+        <pattern>DATA</pattern>
+        <template> 
+             <button>
+                <text>Data Scientist : click here to learn more</text>
+                <url>https://hbr.org/2018/08/what-data-scientists-really-do-according-to-35-data-scientists</url>
+             </button>
+             <button>
+                <text>Cloud Commuting : click here to learn more</text>
+                <url>https://www.techtarget.com/searchcloudcomputing/definition/cloud-engineer</url>
+             </button>
+             <button>
+                <text>AI Engineer : click here to learn more</text>
+                <url>https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/how-to-become-an-ai-engineer#:~:text=achieving%20mission%20objectives.-,What%20Does%20an%20AI%20Engineer%20Do%3F,that%20affect%20the%20entire%20organization.</url>
+             </button>
+             If you're interested in looking at design options type "design".
+        </template>
+
+       
+ </category>
+ <category>
+        <pattern>DESIGN</pattern>
+        <template> 
+             <button>
+                <text>Front End developer : click here to learn more</text>
+                <url>https://www.careerexplorer.com/careers/front-end-developer/</url>
+             </button>
+             <button>
+                <text>UI Developer : click here to learn more</text>
+                <url>https://www.celarity.com/job-description/ui-developer/</url>
+             </button>
+            
+        </template>
+
+       
+ </category>
+ 
+
+ 
+    
+</aiml>
