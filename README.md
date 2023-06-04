@@ -1,2 +1,3 @@
 # Chatbot
 Career Help Chatbot
+The design of the chatbot helps alleviate student traffic sent to career advisors at the University by directing computer science students to the chatbot. The functionality of the chatbot is to help Computer Science Students find the career that best matches their interest. Based on what the soon to be graduate student response is the chatbot will respond with the matches with links to give the graduates a deeper understanding of the career path they are interested in. This chatbot will meet the needs of the described scenario by the design of the chatbot helps alleviate student traffic sent to career advisors at the University by directing students to a bot.
